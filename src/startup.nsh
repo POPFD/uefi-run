@@ -1,4 +1,4 @@
 @echo -off
-echo Starting UEFI application...
+echo Starting UEFI runtime driver...
 fs0:
-run.efi
+load run.efi
